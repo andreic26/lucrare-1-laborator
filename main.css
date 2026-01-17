@@ -1,4 +1,3 @@
-/* Stiluri Generale */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -13,7 +12,7 @@ header {
     text-align: center;
 }
 
-/* Navigare cu Meniu Derulant (Dropdown) */
+
 nav {
     background: #34495e;
     display: flex;
@@ -42,7 +41,7 @@ nav a:hover, .dropdown:hover > a {
     background: #e67e22;
 }
 
-/* Dropdown Logic */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -65,7 +64,7 @@ nav a:hover, .dropdown:hover > a {
     display: block;
 }
 
-/* Blocuri Dinamice & Layout */
+
 .container {
     max-width: 1000px;
     margin: 20px auto;
@@ -82,7 +81,7 @@ nav a:hover, .dropdown:hover > a {
 }
 
 .car-card:hover {
-    transform: scale(1.02); /* Efect dinamic la hover */
+    transform: scale(1.02);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
@@ -94,7 +93,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Formulare */
 form {
     display: flex;
     flex-direction: column;
