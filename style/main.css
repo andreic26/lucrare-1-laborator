@@ -1,0 +1,107 @@
+/* Stiluri Generale */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Navigare cu Meniu Derulant (Dropdown) */
+nav {
+    background: #34495e;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+}
+
+nav a:hover, .dropdown:hover > a {
+    background: #e67e22;
+}
+
+/* Dropdown Logic */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #ecf0f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover {
+    background: #bdc3c7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Blocuri Dinamice & Layout */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+.car-card {
+    transition: transform 0.3s;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.car-card:hover {
+    transform: scale(1.02); /* Efect dinamic la hover */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Formulare */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
